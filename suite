@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="setup">Setup</a></td></tr>
+<tr><td><a href="welcome">Welcome</a></td></tr>
+<tr><td><a href="home">Home</a></td></tr>
+<tr><td><a href="getting-started">Getting Started</a></td></tr>
+<tr><td><a href="baseline">Baseline</a></td></tr>
+<tr><td><a href="update">Update</a></td></tr>
+<tr><td><a href="individual-details">Individual Details</a></td></tr>
+<tr><td><a href="individual-edit">Individual Edit</a></td></tr>
+<tr><td><a href="individual-delete">Individual Delete</a></td></tr>
+</tbody></table>
+</body>
+</html>

@@ -17,6 +17,7 @@
 <tr><td><a href="individual-details">Individual Details</a></td></tr>
 <tr><td><a href="individual-edit">Individual Edit</a></td></tr>
 <tr><td><a href="individual-delete">Individual Delete</a></td></tr>
+<tr><td><a href="death-empty">Death (empty)</a></td></tr>
 </tbody></table>
 </body>
 </html>

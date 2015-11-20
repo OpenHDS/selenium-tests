@@ -67,21 +67,20 @@
 	<td>Membership Details</td>
 </tr>
 <tr>
-	<td>verifyElementPresent</td>
+	<td>clickAndWait</td>
 	<td>//input[@type='submit' and @value='Edit']</td>
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>//input[@type='submit' and @value='Edit']</td>
-	<td></td>
+	<td>verifyText</td>
+	<td>css=h1</td>
+	<td>Edit Membership</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
 	<td>link=Logout</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>

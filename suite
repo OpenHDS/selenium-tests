@@ -22,6 +22,7 @@
 <tr><td><a href="location-edit">Location Edit</a></td></tr>
 <tr><td><a href="location-delete">Location Delete</a></td></tr>
 <tr><td><a href="membership-details">Membership Details</a></td></tr>
+<tr><td><a href="membership-edit">Membership Edit</a></td></tr>
 <tr><td><a href="relationship-details">Relationship Details</a></td></tr>
 <tr><td><a href="visit-details">Visit Details</a></td></tr>
 </tbody></table>

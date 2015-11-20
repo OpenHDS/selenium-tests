@@ -48,37 +48,37 @@
 </tr>
 <tr>
 	<td>verifyTable</td>
-	<td>//form[@id='j_id47']/table[2].1.0</td>
+	<td>//form/table[2].1.0</td>
 	<td>Configure Database</td>
 </tr>
 <tr>
 	<td>verifyTable</td>
-	<td>//form[@id='j_id47']/table[2].2.0</td>
+	<td>//form/table[2].2.0</td>
 	<td>Configure Location Levels</td>
 </tr>
 <tr>
 	<td>verifyTable</td>
-	<td>//form[@id='j_id47']/table[2].3.0</td>
+	<td>//form/table[2].3.0</td>
 	<td>Configure Codes and Parameters</td>
 </tr>
 <tr>
 	<td>verifyTable</td>
-	<td>//form[@id='j_id47']/table[2].4.0</td>
+	<td>//form/table[2].4.0</td>
 	<td>Create Location Hierarchy</td>
 </tr>
 <tr>
 	<td>verifyTable</td>
-	<td>//form[@id='j_id47']/table[2].5.0</td>
+	<td>//form/table[2].5.0</td>
 	<td>Create Field Workers</td>
 </tr>
 <tr>
 	<td>verifyTable</td>
-	<td>//form[@id='j_id47']/table[2].6.0</td>
+	<td>//form/table[2].6.0</td>
 	<td>Baseline</td>
 </tr>
 <tr>
 	<td>verifyTable</td>
-	<td>//form[@id='j_id47']/table[2].7.0</td>
+	<td>//form/table[2].7.0</td>
 	<td>Update</td>
 </tr>
 <tr>
@@ -86,7 +86,6 @@
 	<td>link=Logout</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>

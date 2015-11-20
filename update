@@ -58,7 +58,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>name=j_id51</td>
+	<td>//input[@type='submit' and @value='Select']</td>
 	<td></td>
 </tr>
 <tr>
@@ -76,7 +76,6 @@
 	<td>link=Logout</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>

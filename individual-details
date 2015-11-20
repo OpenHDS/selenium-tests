@@ -62,16 +62,15 @@
 	<td>Individual Details</td>
 </tr>
 <tr>
-	<td>verifyElementPresent</td>
-	<td>name=j_id116:j_id159</td>
-	<td></td>
+	<td>verifyText</td>
+	<td>//form/table/tbody/tr/td[3]</td>
+	<td>0200015T</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
 	<td>link=Logout</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>

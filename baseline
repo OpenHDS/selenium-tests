@@ -99,7 +99,7 @@
 <tr>
 	<td>assertText</td>
 	<td>//form[@id='form']/h3[4]</td>
-	<td>Relationships to Social Group Head: M502S07E16P1-001</td>
+	<td>Relationships to Social Group Head: ${sgId}-001</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -111,7 +111,6 @@
 	<td>link=Logout</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>

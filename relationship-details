@@ -37,23 +37,18 @@
 	<td>Welcome ${user}, Logout</td>
 </tr>
 <tr>
-	<td>selectWindow</td>
-	<td>null</td>
-	<td></td>
-</tr>
-<tr>
 	<td>clickAndWait</td>
 	<td>link=AMENDMENTS</td>
 	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>link=Visit</td>
+	<td>link=Relationship</td>
 	<td></td>
 </tr>
 <tr>
 	<td>verifyTitle</td>
-	<td>OpenHDS - Create Visit</td>
+	<td>OpenHDS - Create Relationship</td>
 	<td></td>
 </tr>
 <tr>
@@ -64,7 +59,7 @@
 <tr>
 	<td>verifyText</td>
 	<td>css=h1</td>
-	<td>Visit Details</td>
+	<td>Relationship Details</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -74,14 +69,13 @@
 <tr>
 	<td>verifyText</td>
 	<td>css=h1</td>
-	<td>Edit Visit</td>
+	<td>Edit Relationship</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
 	<td>link=Logout</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>

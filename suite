@@ -25,6 +25,7 @@
 <tr><td><a href="membership-edit">Membership Edit</a></td></tr>
 <tr><td><a href="relationship-details">Relationship Details</a></td></tr>
 <tr><td><a href="visit-details">Visit Details</a></td></tr>
+<tr><td><a href="socialgroup-details">SocialGroup Details</a></td></tr>
 </tbody></table>
 </body>
 </html>

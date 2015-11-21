@@ -35,8 +35,8 @@
 <tr><td><a href="relationship-delete">Relationship Delete</a></td></tr>
 <tr><td><a href="residency-details">Residency Details</a></td></tr>
 <tr><td><a href="residency-delete">Residency Delete</a></td></tr>
-<tr><td><a href="visit-details">Visit Details</a></td></tr>
 <tr><td><a href="socialgroup-details">SocialGroup Details</a></td></tr>
+<tr><td><a href="visit-details">Visit Details</a></td></tr>
 </tbody></table>
 </body>
 </html>

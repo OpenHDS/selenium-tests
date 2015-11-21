@@ -37,11 +37,6 @@
 	<td>Welcome ${user}, Logout</td>
 </tr>
 <tr>
-	<td>open</td>
-	<td>/openhds/demowelcome.faces</td>
-	<td></td>
-</tr>
-<tr>
 	<td>clickAndWait</td>
 	<td>link=AMENDMENTS</td>
 	<td></td>

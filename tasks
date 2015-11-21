@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>Tasks</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Tasks</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/openhds/login.faces</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=j_username</td>
+	<td>${user}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=j_password</td>
+	<td>${pass}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.texta &gt; div</td>
+	<td>Welcome ${user}, Logout</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=UTILITY ROUTINES</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Tasks</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTitle</td>
+	<td>OpenHDS - Tasks</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h1</td>
+	<td>Tasks</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=taskForm:j_id106</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=taskForm:j_id109</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTable</td>
+	<td>css=table.openhds-table.1.1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>verifyTable</td>
+	<td>css=table.openhds-table.2.1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>verifyTable</td>
+	<td>css=table.openhds-table.3.1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>verifyTable</td>
+	<td>css=table.openhds-table.4.1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>verifyTable</td>
+	<td>css=table.openhds-table.5.1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>verifyTable</td>
+	<td>css=table.openhds-table.6.1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>verifyTable</td>
+	<td>css=table.openhds-table.7.1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>210000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>refreshAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
+	<td>css=table.openhds-table.1.1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
+	<td>css=table.openhds-table.2.1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
+	<td>css=table.openhds-table.3.1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
+	<td>css=table.openhds-table.4.1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
+	<td>css=table.openhds-table.5.1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
+	<td>css=table.openhds-table.6.1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
+	<td>css=table.openhds-table.7.1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

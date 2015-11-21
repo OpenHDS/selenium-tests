@@ -31,6 +31,8 @@
 <tr><td><a href="pregnancy-obs-delete">Pregnancy Obs. Delete</a></td></tr>
 <tr><td><a href="pregnancy-outcome-empty">Pregnancy Outcome (empty)</a></td></tr>
 <tr><td><a href="relationship-details">Relationship Details</a></td></tr>
+<tr><td><a href="relationship-edit">Relationship Edit</a></td></tr>
+<tr><td><a href="relationship-delete">Relationship Delete</a></td></tr>
 <tr><td><a href="visit-details">Visit Details</a></td></tr>
 <tr><td><a href="socialgroup-details">SocialGroup Details</a></td></tr>
 </tbody></table>

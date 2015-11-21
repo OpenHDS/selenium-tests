@@ -25,6 +25,7 @@
 <tr><td><a href="membership-edit">Membership Edit</a></td></tr>
 <tr><td><a href="membership-delete">Membership Delete</a></td></tr>
 <tr><td><a href="in-migration-empty">In-Migration (empty)</a></td></tr>
+<tr><td><a href="out-migration-empty">Out-Migration (empty)</a></td></tr>
 <tr><td><a href="relationship-details">Relationship Details</a></td></tr>
 <tr><td><a href="visit-details">Visit Details</a></td></tr>
 <tr><td><a href="socialgroup-details">SocialGroup Details</a></td></tr>

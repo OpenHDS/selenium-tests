@@ -78,12 +78,12 @@
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>//form[@id='j_id71']/div[4]/table/thead/tr/th[2]</td>
+	<td>//form/div[4]/table/thead/tr/th[2]</td>
 	<td>Name</td>
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>//form[@id='j_id71']/div[4]/table/tbody/tr/td[2]</td>
+	<td>//form/div[4]/table/tbody/tr/td[2]</td>
 	<td>A New Household</td>
 </tr>
 <tr>

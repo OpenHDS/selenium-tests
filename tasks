@@ -58,12 +58,12 @@
 </tr>
 <tr>
 	<td>type</td>
-	<td>name=taskForm:j_id106</td>
+	<td>//input[@type='text'][1]</td>
 	<td>1</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>name=taskForm:j_id109</td>
+	<td>//input[@type='submit' and @value='Queue All Tasks']</td>
 	<td></td>
 </tr>
 <tr>
@@ -151,7 +151,6 @@
 	<td>link=Logout</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>

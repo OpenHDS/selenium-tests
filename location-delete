@@ -37,11 +37,6 @@
 	<td>Welcome ${user}, Logout</td>
 </tr>
 <tr>
-	<td>open</td>
-	<td>/openhds/location/create.faces</td>
-	<td></td>
-</tr>
-<tr>
 	<td>clickAndWait</td>
 	<td>link=AMENDMENTS</td>
 	<td></td>
@@ -71,7 +66,6 @@
 	<td>link=Logout</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>

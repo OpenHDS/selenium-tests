@@ -46,6 +46,11 @@
 	<td>M334S76E57P1-001</td>
 	<td>ghId</td>
 </tr>
+<tr>
+	<td>store</td>
+	<td>M941S64E04P1-001</td>
+	<td>motherId</td>
+</tr>
 </tbody></table>
 </body>
 </html>

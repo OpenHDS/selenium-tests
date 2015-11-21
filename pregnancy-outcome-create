@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>Pregnancy Outcome Create</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Pregnancy Outcome Create</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/openhds/login.faces</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=j_username</td>
+	<td>${user}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=j_password</td>
+	<td>${pass}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.texta &gt; div</td>
+	<td>Welcome ${user}, Logout</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=AMENDMENTS</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Pregnancy Outcome</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pregnancyOutcomeForm:motherExtId</td>
+	<td>${motherId}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pregnancyOutcomeForm:fatherExtId</td>
+	<td>UNK</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pregnancyOutcomeForm:visit</td>
+	<td>2015-05-29_M398S37E14P1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pregnancyOutcomeForm:pregType</td>
+	<td>LBR</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pregnancyOutcomeForm:fieldWorker</td>
+	<td>FWBA1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=pregnancyOutcomeForm:j_id138</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTitle</td>
+	<td>OpenHDS - Create Individual</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h1</td>
+	<td>Create Individual</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=individualForm:firstName</td>
+	<td>New</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=individualForm:middleName</td>
+	<td>Person</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=individualForm:lastName</td>
+	<td>Human</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=individualForm:gender</td>
+	<td>MALE</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=individualForm:dobAspect</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=individualForm:createIndividual</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>//ul[@id='errors']/li[text()='may not be null']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

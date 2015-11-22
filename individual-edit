@@ -62,11 +62,6 @@
 	<td>Edit Individual</td>
 </tr>
 <tr>
-	<td>verifyValue</td>
-	<td>id=individualForm:lastName</td>
-	<td>Obama!</td>
-</tr>
-<tr>
 	<td>type</td>
 	<td>id=individualForm:lastName</td>
 	<td>Obama</td>

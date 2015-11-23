@@ -113,7 +113,7 @@
 </tr>
 <tr>
 	<td>assertText</td>
-	<td>//form[@id='j_id117']/table/tbody/tr[2]/td[3]</td>
+	<td>//form/table/tbody/tr[2]/td[3]</td>
 	<td>${veFwId}</td>
 </tr>
 <tr>
@@ -121,7 +121,6 @@
 	<td>link=Logout</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>

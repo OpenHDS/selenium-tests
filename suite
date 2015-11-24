@@ -44,6 +44,7 @@
 <tr><td><a href="visit-edit">Visit Edit</a></td></tr>
 <tr><td><a href="visit-delete">Visit Delete</a></td></tr>
 <tr><td><a href="fieldworker-details">FieldWorker Details</a></td></tr>
+<tr><td><a href="fieldworker-edit">FieldWorker Edit</a></td></tr>
 <tr><td><a href="tasks">Tasks</a></td></tr>
 </tbody></table>
 </body>

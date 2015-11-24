@@ -47,24 +47,74 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>link=Listing</td>
+	<td>verifyTitle</td>
+	<td>OpenHDS - Create Field Worker</td>
 	<td></td>
 </tr>
 <tr>
-	<td>storeText</td>
-	<td>//form[@id='j_idt79']/div[2]/table/tbody/tr[10]/td</td>
-	<td>fwdFwId</td>
+	<td>verifyText</td>
+	<td>css=h1</td>
+	<td>Create Field Worker</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=form:name</td>
+	<td>Created</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=form:lastname</td>
+	<td>Worker</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=form:password</td>
+	<td>notreal</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=form:confirmPassword</td>
+	<td>notreal</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>xpath=(//img[@title='delete'])[10]</td>
+	<td>//input[@type='submit' and @value='Create']</td>
 	<td></td>
 </tr>
 <tr>
-	<td>assertNotText</td>
-	<td>//form/div[2]/table/tbody/tr[10]/td</td>
-	<td>${fwdFwId}</td>
+	<td>verifyTitle</td>
+	<td>OpenHDS - Create Field Worker</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//select[1]</td>
+	<td>label=lastName</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@type='text'][1]</td>
+	<td>Worker</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@type='submit' and @value='Search']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTable</td>
+	<td>css=table.1.0</td>
+	<td>FWCW*</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[title=&quot;delete&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
+	<td>css=table.1.0</td>
+	<td>FWCW*</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>

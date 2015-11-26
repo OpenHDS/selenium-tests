@@ -58,7 +58,7 @@
 </tr>
 <tr>
 	<td>storeText</td>
-	<td>//form[@id='j_idt79']/div[2]/table/tbody/tr[2]/td[3]</td>
+	<td>//form/div[2]/table/tbody/tr[2]/td[3]</td>
 	<td>fweLastName</td>
 </tr>
 <tr>
@@ -131,7 +131,6 @@
 	<td>link=Logout</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>

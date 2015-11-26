@@ -48,6 +48,7 @@
 <tr><td><a href="fieldworker-delete">FieldWorker Delete</a></td></tr>
 <tr><td><a href="fieldworker-create">FieldWorker Create</a></td></tr>
 <tr><td><a href="tasks">Tasks</a></td></tr>
+<tr><td><a href="user-management">User Management</a></td></tr>
 </tbody></table>
 </body>
 </html>

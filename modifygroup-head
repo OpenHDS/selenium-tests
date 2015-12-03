@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>modifygroup-head</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">modifygroup-head</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/openhds/login.faces</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=j_username</td>
+	<td>${user}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=j_password</td>
+	<td>${pass}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.texta &gt; div</td>
+	<td>Welcome ${user}, Logout</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Modify Group Head</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTitle</td>
+	<td>Modify Group Head</td>
+	<td></td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>M1000S58E07P1</td>
+	<td>socgrpId</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=form:group</td>
+	<td>${socgrpId}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=form:setGroupBtn</td>
+	<td>Select</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='form']/h4[2]</td>
+	<td>Select the successor from the list of individuals in Social Group: M1000S58E07P1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=td.alt-col &gt; table.base-table &gt; tbody &gt; tr &gt; td.alt-col</td>
+	<td>Select</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Select</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=form:newMembershipBtn</td>
+	<td>Add New Membership</td>
+</tr>
+<tr>
+	<td>verifyTitle</td>
+	<td>OpenHDS - Create Membership</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=form</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=form:indiv</td>
+	<td>M1000S58E07P1-003</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=form:relationshipType1</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=form:membershipType1</td>
+	<td>IMG</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=form:collectedBy</td>
+	<td>FWBB1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=form:create</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTitle</td>
+	<td>Modify Group Head</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=form:j_idt168</td>
+	<td>Clear Selected Individual</td>
+</tr>
+<tr>
+	<td>verifyTitle</td>
+	<td>Apache Tomcat/8.0.24 - Error report</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/openhds/login.faces</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=j_username</td>
+	<td>${user}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=j_password</td>
+	<td>${pass}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.texta &gt; div</td>
+	<td>Welcome ${user}, Logout</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

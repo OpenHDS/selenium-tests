@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>note-create</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">note-create</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/openhds/login.faces</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=j_username</td>
+	<td>${user}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=j_password</td>
+	<td>${pass}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.texta &gt; div</td>
+	<td>Welcome ${user}, Logout</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Notes</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>OpenHDS - Create Note</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=j_idt110:collectedBy</td>
+	<td>FWBB1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=j_idt110:notes</td>
+	<td>new node added</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=j_idt110:j_idt119</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=td.center</td>
+	<td>new node added</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[title=&quot;view&quot;]</td>
+	<td></td>
+</tr>
+<!--view click gives error-->
+<tr>
+	<td>assertTitle</td>
+	<td>Apache Tomcat/8.0.24 - Error report</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/openhds/login.faces</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=j_username</td>
+	<td>${user}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=j_password</td>
+	<td>${pass}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.texta &gt; div</td>
+	<td>Welcome ${user}, Logout</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Notes</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Listing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[title=&quot;edit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=j_idt111:notes</td>
+	<td>new node added edit</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=j_idt111:j_idt120</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>OpenHDS - Note Details</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='j_idt111']/table/tbody/tr[5]/td[2]</td>
+	<td>new node added edit</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Listing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[title=&quot;delete&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='j_idt79']/div[2]</td>
+	<td>(No Note Items Found)</td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>OpenHDS - Create Note</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

@@ -72,6 +72,11 @@
 	<td>9</td>
 </tr>
 <tr>
+	<td>type</td>
+	<td>id=form:membershipType1</td>
+	<td>ENU</td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
 	<td>//input[@type='submit' and @value='Save']</td>
 	<td></td>

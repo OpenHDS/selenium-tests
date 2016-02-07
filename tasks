@@ -57,6 +57,46 @@
 	<td>Tasks</td>
 </tr>
 <tr>
+	<td>storeTable</td>
+	<td>css=table.openhds-table.1.3</td>
+	<td>tlEndTime</td>
+</tr>
+<tr>
+	<td>storeTable</td>
+	<td>css=table.openhds-table.2.3</td>
+	<td>tiEndTime</td>
+</tr>
+<tr>
+	<td>storeTable</td>
+	<td>css=table.openhds-table.3.3</td>
+	<td>trEndTime</td>
+</tr>
+<tr>
+	<td>storeTable</td>
+	<td>css=table.openhds-table.4.3</td>
+	<td>tsgEndTime</td>
+</tr>
+<tr>
+	<td>storeTable</td>
+	<td>css=table.openhds-table.6.3</td>
+	<td>tmEndTime</td>
+</tr>
+<tr>
+	<td>storeTable</td>
+	<td>css=table.openhds-table.7.3</td>
+	<td>tvEndTime</td>
+</tr>
+<tr>
+	<td>storeTable</td>
+	<td>css=table.openhds-table.8.3</td>
+	<td>tfwEndTime</td>
+</tr>
+<tr>
+	<td>storeTable</td>
+	<td>css=table.openhds-table.9.3</td>
+	<td>tlhEndTime</td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>//input[@type='text'][1]</td>
 	<td>1</td>
@@ -88,11 +128,6 @@
 </tr>
 <tr>
 	<td>verifyTable</td>
-	<td>css=table.openhds-table.5.1</td>
-	<td>0</td>
-</tr>
-<tr>
-	<td>verifyTable</td>
 	<td>css=table.openhds-table.6.1</td>
 	<td>0</td>
 </tr>
@@ -103,7 +138,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>210000</td>
+	<td>120000</td>
 	<td></td>
 </tr>
 <tr>
@@ -118,8 +153,18 @@
 </tr>
 <tr>
 	<td>verifyNotTable</td>
+	<td>css=table.openhds-table.1.3</td>
+	<td>${tlEndTime}</td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
 	<td>css=table.openhds-table.2.1</td>
 	<td>0</td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
+	<td>css=table.openhds-table.2.3</td>
+	<td>${tiEndTime}</td>
 </tr>
 <tr>
 	<td>verifyNotTable</td>
@@ -128,13 +173,18 @@
 </tr>
 <tr>
 	<td>verifyNotTable</td>
+	<td>css=table.openhds-table.3.3</td>
+	<td>${trEndTime}</td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
 	<td>css=table.openhds-table.4.1</td>
 	<td>0</td>
 </tr>
 <tr>
 	<td>verifyNotTable</td>
-	<td>css=table.openhds-table.5.1</td>
-	<td>0</td>
+	<td>css=table.openhds-table.4.3</td>
+	<td>${tsgEndTime}</td>
 </tr>
 <tr>
 	<td>verifyNotTable</td>
@@ -143,8 +193,38 @@
 </tr>
 <tr>
 	<td>verifyNotTable</td>
+	<td>css=table.openhds-table.6.3</td>
+	<td>${tmEndTime}</td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
 	<td>css=table.openhds-table.7.1</td>
 	<td>0</td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
+	<td>css=table.openhds-table.7.3</td>
+	<td>${tvEndTime}</td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
+	<td>css=table.openhds-table.8.1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
+	<td>css=table.openhds-table.8.3</td>
+	<td>${tfwEndTime}</td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
+	<td>css=table.openhds-table.9.1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>verifyNotTable</td>
+	<td>css=table.openhds-table.9.1</td>
+	<td>${tlhEndTime}</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>

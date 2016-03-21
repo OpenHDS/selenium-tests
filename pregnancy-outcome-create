@@ -59,7 +59,7 @@
 <tr>
 	<td>type</td>
 	<td>id=pregnancyOutcomeForm:visit</td>
-	<td>2015-05-29_M275S86E01P3</td>
+	<td>2015-05-29_M0275S086E001P03</td>
 </tr>
 <tr>
 	<td>type</td>
@@ -73,7 +73,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>name=pregnancyOutcomeForm:j_id138</td>
+	<td>//input[@type='submit' and @value='Create']</td>
 	<td></td>
 </tr>
 <tr>

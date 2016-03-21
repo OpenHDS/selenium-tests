@@ -23,32 +23,32 @@
 </tr>
 <tr>
 	<td>store</td>
-	<td>FWBA1</td>
+	<td>FWOD1</td>
 	<td>fwId</td>
 </tr>
 <tr>
 	<td>store</td>
-	<td>M0452S14E02P2</td>
+	<td>M0452S014E002P02</td>
 	<td>locId</td>
 </tr>
 <tr>
 	<td>store</td>
-	<td>M502S07E16P1</td>
+	<td>M0502S007E016P01</td>
 	<td>sgId</td>
 </tr>
 <tr>
 	<td>store</td>
-	<td>2015-05-16_M393S53E14P1</td>
+	<td>2015-01-26_M0445S097E002P01</td>
 	<td>visitId</td>
 </tr>
 <tr>
 	<td>store</td>
-	<td>M334S76E57P1-001</td>
+	<td>M0334S076E057P01-001</td>
 	<td>ghId</td>
 </tr>
 <tr>
 	<td>store</td>
-	<td>M941S64E04P1-001</td>
+	<td>M0941S064E004P01-001</td>
 	<td>motherId</td>
 </tr>
 </tbody></table>

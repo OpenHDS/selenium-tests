@@ -69,7 +69,7 @@
 <tr>
 	<td>verifyText</td>
 	<td>//form/table/tbody/tr/td[3]</td>
-	<td>M0452S14E02P2</td>
+	<td>${locId}</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>

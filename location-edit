@@ -68,8 +68,18 @@
 </tr>
 <tr>
 	<td>type</td>
+	<td>id=form:collectedBy</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
 	<td>id=form:locationName</td>
 	<td>Vidal casas!</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=form:collectedBy</td>
+	<td>${fwId}</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
